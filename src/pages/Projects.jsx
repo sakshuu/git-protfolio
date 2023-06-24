@@ -36,7 +36,7 @@ const Projects = () => {
       hostedLink:"https://github.com/sakshuu/bollybook-movieBookingWebApp-",
       GithubLink:"https://github.com/sakshuu/bollybook-movieBookingWebApp-",
       img: bollybook,
-      desc:"My movie booking project is a user-friendly app built with React JS, Redux, and Bootstrap. Users can search, view details, and book movie tickets. The app's real-time updates and efficient state management ensure smooth performance, making it ideal for online movie ticket booking.",
+      desc:"My movie booking project is a user-friendly app built with React JS, Redux, and Bootstrap. Users can search, view details, and book movie tickets. The app's real-time updates and efficient state management ensure smooth performance, making it ideal for online movie ticket booking. (currently working)",
       id:3,
     },
     {
