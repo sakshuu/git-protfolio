@@ -1,0 +1,13 @@
+.skill{
+    margin-top: 40px ;
+}
+.techskill{
+margin-bottom: 90px !important;
+display: inline;
+justify-content: center !important;
+align-items: center;
+}
+
+.skillimg{
+        text-align: center;
+}

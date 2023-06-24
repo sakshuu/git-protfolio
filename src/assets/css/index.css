@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif !important;
+}
+.gradient{
+    /* background-color: #383838 !important;
+    position: absolute !important;
+    color: #F5F5F5 !important;
+    min-height: 100vh !important;
+    width: 100vw !important; */
+    background-image: linear-gradient(
+        310deg,
+        hsl(0deg 0% 22%) 0%,
+        hsl(344deg 0% 23%) 9%,
+        hsl(344deg 0% 23%) 18%,
+        hsl(344deg 0% 24%) 27%,
+        hsl(281deg 1% 24%) 36%,
+        hsl(281deg 3% 24%) 45%,
+        hsl(280deg 5% 24%) 55%,
+        hsl(280deg 7% 24%) 64%,
+        hsl(283deg 15% 32%) 73%,
+        hsl(289deg 22% 43%) 82%,
+        hsl(296deg 32% 54%) 91%,
+        hsl(302deg 59% 65%) 100%
+      ) !important;
+      position: absolute !important;
+      color: #F5F5F5 !important;
+      min-height: 100vh !important;
+      width: 100vw !important;
+}
+/* 404 */
+.bolded {
+    font-weight: bold;
+    color: red;
+}
+.pageNotFond {
+    color: black;
+}
+.heading{
+    text-align: center !important;
+    margin-top:18px !important;
+    color: #DA70D6;
+}
+.colorText{
+    color: #DA70D6;
+}

@@ -1,0 +1,26 @@
+.contact{
+    color: whitesmoke !important;
+    border: whitesmoke !important;
+    border-color: whitesmoke !important;
+}
+.white-border .MuiOutlinedInput-notchedOutline {
+    border-color: #989898 !important;
+  }
+
+  .white-border .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: #989898 !important;
+  }
+  .contact-main{
+    margin-top: 35px !important;
+  }
+  .details{
+    padding: 10px;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-content: baseline !important;
+    gap: 35px !important;
+  }
+  .icondetails{
+    height: 50px;
+    width: 50px;
+  }

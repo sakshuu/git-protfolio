@@ -1,0 +1,5 @@
+.projectImg{
+    display: flex;
+    justify-content: center !important;
+    align-items: baseline;
+}

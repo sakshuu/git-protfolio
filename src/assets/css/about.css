@@ -1,0 +1,33 @@
+.about-content{
+    margin-top: 8px !important;
+}
+.back-img{
+    margin: 25px;
+    margin-left: 15px;
+    width: 45w;
+    height: 50vh;
+    background-size: cover;
+    border-radius: 50px;
+    border: 4px solid #808080;
+}
+
+.content-img{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.resume{
+    display: flex !important;
+}
+
+.line{
+    border: 1.5px;
+}
+.info{
+    color: #989898;
+    font-size: 20px !important;
+}
+.linehr{
+    border-color: #808080;
+
+}

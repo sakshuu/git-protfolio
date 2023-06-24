@@ -1,0 +1,38 @@
+.content{
+    position: relative !important;
+    margin-top: 45px !important;
+}
+.fontsize{
+    font-size: 140%;
+}
+.spacing {
+    line-height: 45px;
+}
+.main-btn{
+    margin-top: 34px;
+}
+#btn{
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    transition: transform 0.25s ease;
+}
+#btn:hover{
+    color: #BEBEBE;
+    border: 2px solid #BEBEBE;
+    transform: scale(1.1);
+}
+.icon{
+    margin-top: 10px !important;
+    display: inline;
+    gap: 10px;
+    margin-right: 20px;
+    height: 45px;
+    width: 45px;
+}
+.typeani{
+    color: #DA70D6;
+}
+.fllowMe{
+    margin-top: 20px !important;
+}
