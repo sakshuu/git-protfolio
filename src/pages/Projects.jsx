@@ -7,6 +7,8 @@ import youTubeClone from "./../assets/images/projects/youTubeClone.jpg"
 import protfolio from "./../assets/images/projects/protfolio.jpg"
 import bollybook from "./../assets/images/projects/bollybook.jpg"
 import weather_app from "./../assets/images/projects/weather_app.jpg"
+import Tic_tac_too from "./../assets/images/projects/Tic_tac_too.jpg"
+import student from "./../assets/images/projects/student.jpg"
 import { Link } from 'react-router-dom';
 
 
@@ -31,8 +33,8 @@ const Projects = () => {
     },
     {
       title:"BollyBook",  
-      hostedLink:"https://www.linkedin.com/in/sakshi-jadhav-8b6429226/",
-      GithubLink:"",
+      hostedLink:"https://github.com/sakshuu/bollybook-movieBookingWebApp-",
+      GithubLink:"https://github.com/sakshuu/bollybook-movieBookingWebApp-",
       img: bollybook,
       desc:"My movie booking project is a user-friendly app built with React JS, Redux, and Bootstrap. Users can search, view details, and book movie tickets. The app's real-time updates and efficient state management ensure smooth performance, making it ideal for online movie ticket booking.",
       id:3,
@@ -47,18 +49,18 @@ const Projects = () => {
     },
     {
       title:"Tic-tac-too",  
-      hostedLink:"https://www.linkedin.com/in/sakshi-jadhav-8b6429226/",
-      GithubLink:"",
-      img: youTubeClone,
+      hostedLink:"https://sakshuu.github.io/tic-tac-toe/",
+      GithubLink:"https://github.com/sakshuu/tic-tac-toe",
+      img: Tic_tac_too,
       desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
       id:5,
     },
     {
       title:"Student Management",  
-      hostedLink:"https://www.linkedin.com/in/sakshi-jadhav-8b6429226/",
-      GithubLink:"",
-      img: youTubeClone,
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
+      hostedLink:"https://github.com/sakshuu/student_data",
+      GithubLink:"https://github.com/sakshuu/student_data",
+      img: student,
+      desc:"A student management system is a CRUD app using Redux in the frontend. Features include adding new students, viewing all students, editing/deleting student records, and searching by name/ID. It's a powerful tool for teachers and admins to manage student info efficiently.",
       id:6,
     }
 ];
