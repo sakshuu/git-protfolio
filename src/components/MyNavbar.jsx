@@ -197,8 +197,8 @@ const settings = [
 
 
           <Box sx={{ flexGrow: 0 }} >
-            <Tooltip title="Open settings">
-              <Button  variant="contained" className='btn' size='small' onClick={handleOpenUserMenu}>Follow Me</Button>
+            <Tooltip title="Clike To Open">
+              <Button   variant="contained" className='btn' size='small' onClick={handleOpenUserMenu}>Follow Me</Button>
             </Tooltip>
             <Menu
               sx={{ mt: '45px' }}
