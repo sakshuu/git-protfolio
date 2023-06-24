@@ -1,4 +1,4 @@
-import { Box, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, Card, CardContent, Typography } from '@mui/material'
 import React from 'react'
 import "./../assets/css/resume.css"
 
@@ -21,7 +21,7 @@ const Experience = () => {
 <Card 
 data-aos="fade-down"
 data-aos-duration="3000"
-sx={{backgroundColor:"#080808", color:"white", padding:'22px', height: "250px"}} >
+sx={{backgroundColor:"#080808", color:"white", padding:'22px', minHeight: "250px"}} >
   <Box        data-aos="flip-up"
        data-aos-duration="2000" >
           <span className="badges">{item?.year}</span>

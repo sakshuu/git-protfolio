@@ -11,10 +11,8 @@ const Home = () => {
   const navigate=  useNavigate()
 
   const handleEmail = () => {
-    const emailAddress = 'sakshisjadhav.120@gmail.com'; // Replace with your Gmail address
-
+    const emailAddress = 'sakshisjadhav.120@gmail.com'; 
     const mailtoLink = `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(emailAddress)}`;
-
     window.open(mailtoLink);
   };
 
@@ -25,8 +23,9 @@ const Home = () => {
   <Grid align="center">
     <Box className="content">
       <Box>
-  <Typography variant='h4' id="heading" sx={{ lineHeight: "60px"}}>Welcome</Typography>
-  <Typography variant="h2" sx={{ fontWeight: 'bold', marginBottom:"20px"}}>
+  <Typography id="heading"  variant='h4'
+  sx={{ lineHeight: "60px"}}>Welcome</Typography>
+  <Typography component="h3" variant='h3' sx={{ fontWeight: 'bold', marginBottom:"20px" }}>
     <TypeAnimation id="heading" className='typeani'
       sequence={[
         "I'm Sakshi Jadhav", 
@@ -62,10 +61,7 @@ projects on time</Typography>
 </Link>
 </Box>
 
-<Box className="main-btn"
- data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom"
-     data-aos-duration="2000">
+<Box className="main-btn">
   <Button
  onClick={e => navigate(`/contact`)}
 variant="container" 

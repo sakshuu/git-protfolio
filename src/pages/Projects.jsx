@@ -3,13 +3,8 @@ import React from 'react'
 import "./../assets/css/myprojects.css"
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
-import youTubeClone from "./../assets/images/projects/youTubeClone.jpg"
-import protfolio from "./../assets/images/projects/protfolio.jpg"
-import bollybook from "./../assets/images/projects/bollybook.jpg"
-import weather_app from "./../assets/images/projects/weather_app.jpg"
-import Tic_tac_too from "./../assets/images/projects/Tic_tac_too.jpg"
-import student from "./../assets/images/projects/student.jpg"
 import { Link } from 'react-router-dom';
+import { Tic_tac_too, bollybook, protfolio, student, weather_app, youTubeClone } from '../assets/images/projects';
 
 
 const Projects = () => {
@@ -80,15 +75,13 @@ const Projects = () => {
   <Card 
    data-aos="zoom-in-up"
    data-aos-duration="800"
-  sx={{backgroundColor:"#080808", color:"white", padding:'18px', maxHeight: "80vh" }}> 
-  <Box data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="projectImg">
-      <CardMedia 
-        sx={{ height: 250, width:450}}
-        image={item?.img}
-        title="green iguana"
-        />
+  sx={{backgroundColor:"#080808", color:"white", padding:'18px',  maxWidth:"85vw" }}> 
+  <Box 
+   data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1500" 
+     className="projectImg">
+      <img src={item?.img} className="projectSS" alt="ss" />
         </Box>
       <CardContent>
         <Typography className="colorText" gutterBottom variant="h5" component="div">

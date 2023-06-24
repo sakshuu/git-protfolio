@@ -33,7 +33,7 @@ const Contact = () => {
 <Grid item  sm={12} md={8}>
 <ContactMe/>
   </Grid>
-<Grid item  sm={12} md={4} sx={{marginTop:"75px" }} >
+<Grid item  sm={12} md={4} sx={{marginTop:"75px" ,marginBottom:"100px"}} >
 {
   contactList && contactList.map(item => (
 <Card data-aos="zoom-out-left" data-aos-duration="2000"  sx={{ maxWidth: 410 , maxHeight:90, backgroundColor:"#080808", color:"white", marginBottom:"20px"}}>

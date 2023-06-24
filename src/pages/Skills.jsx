@@ -97,8 +97,8 @@ const Skills = () => {
   <Typography variant="h3" className='heading' component="h3" >Skills</Typography>
   <Box className="skill">
 
-  <Container>
-  <Grid container spacing={{ xs: 3, md: 2 }} columns={{ xs: 12, sm: 12, md: 12 }}>
+  <Container maxWidth="xl">
+    <Grid container spacing={2}>
       {
         techSkills &&  techSkills.map((item) => <>
     <Grid key={techSkills} item xs={6} sm={3} md={2} className="techskill">
@@ -106,9 +106,11 @@ const Skills = () => {
        data-aos="flip-up"
        data-aos-duration="2000" 
        src={item?.icons} alt="" classname='skillimg' height={100} width={100}/>
-       <Typography  variant='h6' component='h6'      data-aos="flip-up"
-       data-aos-duration="2000" >{item.name}</Typography>
-      </Grid>
+       <Typography  variant='h6' component='h6'
+      data-aos="flip-up"
+      data-aos-duration="2000" 
+      >{item.name}</Typography>
+    </Grid>
      </>
       )
     }

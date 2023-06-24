@@ -1,5 +1,6 @@
 .appbar{
     background-color: #080808 !important;
+    width: 100vw !important;
 }
 .nav-link{
     text-decoration:  none;

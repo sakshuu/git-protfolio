@@ -13,6 +13,7 @@ const App = () => {
   }, [])
   
   return <>
+
 <MyNavbar/>
  <Routes>
     <Route path='/' element={<Home/>}/>

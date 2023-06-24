@@ -28,7 +28,7 @@
       position: absolute !important;
       color: #F5F5F5 !important;
       min-height: 100vh !important;
-      width: 100vw !important;
+      min-width: 100vw !important;
 }
 /* 404 */
 .bolded {

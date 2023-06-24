@@ -3,3 +3,8 @@
     justify-content: center !important;
     align-items: baseline;
 }
+.projectSS{
+    /* max-height: 100% !important; */
+    max-width: 100% !important;
+
+}

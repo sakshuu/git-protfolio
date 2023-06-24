@@ -6,11 +6,9 @@ import Box from '@mui/material/Box';
 import "./../assets/css/contact.css"
 import { useFormik } from 'formik';
 import * as yup from "yup"
-import { Typography } from '@mui/material';
 
 export default function ContactMe() {
   
-  // const actionDispatch = useDispatch()
   const formik = useFormik({
     initialValues: {
       name:"",
@@ -25,7 +23,6 @@ export default function ContactMe() {
       message:yup.string().required("Type Your massage"),
     }),
     onSubmit: (values,{ resetForm }) => {
-      // actionDispatch(contactMeListData(values))
 console.log(values);
       resetForm();
     }

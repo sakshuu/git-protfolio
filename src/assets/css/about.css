@@ -4,8 +4,8 @@
 .back-img{
     margin: 25px;
     margin-left: 15px;
-    width: 45w;
-    height: 50vh;
+    max-width: 45vw !important;
+    max-height: 50vh !important;
     background-size: cover;
     border-radius: 50px;
     border: 4px solid #808080;

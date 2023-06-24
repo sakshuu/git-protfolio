@@ -42,7 +42,7 @@ const education = [
 <Card 
 data-aos="fade-up"
      data-aos-duration="3000"
-      sx={{backgroundColor:"#080808", color:"white", padding:'22px', height: "250px", marginBottom:"18px"}} >
+      sx={{backgroundColor:"#080808", color:"white", padding:'22px', minHeight: "250px", marginBottom:"18px"}} >
         <Box >
         <span className="badges">{item?.year}</span>
         </Box>

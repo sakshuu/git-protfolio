@@ -99,7 +99,7 @@ const settings = [
 
   return <>
 <AppBar position='static' className='appbar' sx={{padding:{xs:'16px', sm:"10px"}}}>
-      <Container>
+      <Container  >
         <Toolbar disableGutters>
           <Person2Icon sx={{ display: { xs: 'none', md: 'flex' }, mr: 2 }} />
           <Typography
@@ -109,7 +109,8 @@ const settings = [
             to="/"
             sx={{
               mr: 2,
-              display: { xs: 'none', md: 'flex' },
+            display: { xs: 'none', md: 'flex',  },
+              variant: { sm:"body1"},
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -122,7 +123,7 @@ const settings = [
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
-              size="large"
+              // size="sm"
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
@@ -160,24 +161,26 @@ const settings = [
               )}
             </Menu>
           </Box>
-          <Person2Icon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <Person2Icon sx={{ display: { xs: 'flex', md: 'none' }, visibility: { xs: "hidden" }}} />
           <Typography
-            variant="h5"
+            variant="h6"
             noWrap
             component="a"
             href=""
             sx={{
-              mr: 2,
+              // mr: 1,
+              ml:0,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
+              fontWeight: 10,
+              letterSpacing: '.10rem',
               color: 'inherit',
+              variant: { sm:"body2"},
               textDecoration: 'none',
             }}
           >
-           SAKSHUU
+           SAKSHI
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -195,7 +198,7 @@ const settings = [
 
           <Box sx={{ flexGrow: 0 }} >
             <Tooltip title="Open settings">
-              <Button  variant="contained" className='btn' onClick={handleOpenUserMenu}>Follow Me</Button>
+              <Button  variant="contained" className='btn' size='small' onClick={handleOpenUserMenu}>Follow Me</Button>
             </Tooltip>
             <Menu
               sx={{ mt: '45px' }}
