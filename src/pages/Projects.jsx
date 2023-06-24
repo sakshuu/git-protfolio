@@ -5,6 +5,8 @@ import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import youTubeClone from "./../assets/images/projects/youTubeClone.jpg"
 import protfolio from "./../assets/images/projects/protfolio.jpg"
+import bollybook from "./../assets/images/projects/bollybook.jpg"
+import weather_app from "./../assets/images/projects/weather_app.jpg"
 import { Link } from 'react-router-dom';
 
 
@@ -13,16 +15,16 @@ const Projects = () => {
   const projects = [
     {
       title:"My Protfolio",  
-      hostedLink:"https://www.linkedin.com/in/sakshi-jadhav-8b6429226/",
-      GithubLink:"",
+      hostedLink:"https://git-protfolio.vercel.app/",
+      GithubLink:"https://github.com/sakshuu/git-protfolio",
       img: protfolio,
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
+      desc:"My portfolio project showcases my skills as a frontend developer using React JS. The website includes a home page, project page, and about me section, highlighting my work and experience. The website is designed to be visually appealing and easy to navigate, demonstrating my ability to create responsive and dynamic user interfaces.",
       id:1,
     },
     {
       title:"YouTube Clone",  
-      hostedLink:"https://www.linkedin.com/in/sakshi-jadhav-8b6429226/",
-      GithubLink:"",
+      hostedLink:"https://you-tube-clone-ruby.vercel.app/",
+      GithubLink:"https://github.com/sakshuu/you-tube_clone",
       img: youTubeClone,
       desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
       id:2,
@@ -31,15 +33,15 @@ const Projects = () => {
       title:"BollyBook",  
       hostedLink:"https://www.linkedin.com/in/sakshi-jadhav-8b6429226/",
       GithubLink:"",
-      img: youTubeClone,
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
+      img: bollybook,
+      desc:"My movie booking project is a user-friendly app built with React JS, Redux, and Bootstrap. Users can search, view details, and book movie tickets. The app's real-time updates and efficient state management ensure smooth performance, making it ideal for online movie ticket booking.",
       id:3,
     },
     {
       title:"Weather App",  
-      hostedLink:"https://www.linkedin.com/in/sakshi-jadhav-8b6429226/",
-      GithubLink:"",
-      img: youTubeClone,
+      hostedLink:"https://sakshuu.github.io/whather_app/",
+      GithubLink:"https://github.com/sakshuu/whather_app",
+      img: weather_app,
       desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
       id:4,
     },
@@ -59,8 +61,7 @@ const Projects = () => {
       desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
       id:6,
     }
-    
-                     ];
+];
 
   return <>
 

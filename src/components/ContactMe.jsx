@@ -13,10 +13,10 @@ export default function ContactMe() {
   // const actionDispatch = useDispatch()
   const formik = useFormik({
     initialValues: {
-      name:"sakshi",
-      email:"sakshi@gmail.com",
-      subject:"hashkas",
-      message:"ajbsjkvasju",
+      name:"",
+      email:"",
+      subject:"",
+      message:"",
     },
     validationSchema: yup.object({
       name:yup.string().required("Please Enter Name"),
@@ -82,12 +82,12 @@ console.log(values);
                     },
                   }}
                 />
-                  <Typography variant='body1' component="body1"
+                  {/* <Typography variant='body1' component="body1"
                   sx={{ color: "red" }}
                   className="invalid-feedback"
                 >
                   {formik.errors.name}
-                </Typography>
+                </Typography> */}
               </Grid>
 
               <Grid item xs={12} >
@@ -129,12 +129,12 @@ console.log(values);
                     },
                   }}
                   />
-                                    <Typography variant='body1' component="body1"
+                                    {/* <Typography variant='body1' component="body1"
                   sx={{ color: "red" }}
                   className="invalid-feedback"
                 >
                   {formik.errors.email}
-                </Typography>
+                </Typography> */}
               </Grid>
 
               <Grid item xs={12}>
@@ -177,12 +177,12 @@ console.log(values);
                     },
                   }}
                 />
-                                  <Typography variant='body1' component="body1"
+                                  {/* <Typography variant='body1' component="body1"
                   sx={{ color: "red" }}
                   className="invalid-feedback"
                 >
                   {formik.errors.subject}
-                </Typography>
+                </Typography> */}
               </Grid>
               
               <Grid item xs={12}>
@@ -237,12 +237,12 @@ console.log(values);
                     },
                   }}
                 />
-                                  <Typography variant='body1' component="body1"
+                                  {/* <Typography variant='body1' component="body1"
                   sx={{ color: "red" }}
                   className="invalid-feedback"
                 >
                   {formik.errors.message}
-                </Typography>
+                </Typography> */}
               </Grid>
 
             </Grid>

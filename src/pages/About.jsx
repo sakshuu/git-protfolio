@@ -46,8 +46,11 @@ const About = () => {
       <Typography variant='h5' className='colorText'> Sakshi Jadhav, </Typography>
       <Typography variant='h5'> a Frontend Developer</Typography>
       </Box>
-      <Typography variant='body1' className='info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit harum tenetur eveniet adipisci praesentium quas officiis officia iure, vitae, consequatur delectus placeat nobis dolorum vel! Architecto est velit iusto aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, quo, in ipsam id natus libero sunt illo minima distinctio quidem ipsa autem debitis voluptatum sequi odio dignissimos dolore necessitatibus facere!</Typography>
-      <Box className="content-img" sx={{marginTop:"20px"}} >
+      <Typography variant='body1' className='info'>I am a frontend developer specializing in ReactJS. With expertise in HTML, CSS, JavaScript, ReactJS, and Redux, I have successfully contributed to various projects, including an e-commerce platform. During this experience, I skillfully managed state using Redux, implemented robust authentication systems, integrated APIs using Axios, and leveraged UI libraries such as Material UI and Bootstrap to enhance the overall design and user experience.
+</Typography>
+      <Typography variant='body1' className='info' > My knowledge also extends to CSS frameworks like Tailwind CSS and Bootstrap 5. With a strong command of these technologies, I consistently deliver high-quality and visually appealing frontend solutions. Efficient problem solver with skills in teamwork and delivering projects on time.
+</Typography>
+      {/* <Box className="content-img" sx={{marginTop:"20px"}} >
         <Box >
     <hr className='line'/>
     <Typography variant='h6'>Name: Sakshi Jadhav</Typography>
@@ -60,7 +63,7 @@ const About = () => {
     <Typography variant='h6'>Age: 21</Typography>
     <hr className='linehr'/>
         </Box>
-      </Box>
+      </Box> */}
     </Container>
   </Grid>
   </Grid>
