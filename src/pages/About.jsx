@@ -37,9 +37,8 @@ const About = () => {
     startIcon={<DownloadIcon/>}>download resume</Button>
       </Box> 
   </Grid>
-  <Grid item xs={12} sm={12} md={8}  data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="600"
+  <Grid item xs={12} sm={12} md={8} 
+  data-aos="fade-left"
      data-aos-duration="700"
      >
       <Box sx={{display:{ md:"flex", sm:"inline"},  gap:"2px", marginBottom:"10px", marginTop:"29px"}}>
