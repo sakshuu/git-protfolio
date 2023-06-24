@@ -28,7 +28,7 @@ const Projects = () => {
       hostedLink:"https://you-tube-clone-ruby.vercel.app/",
       GithubLink:"https://github.com/sakshuu/you-tube_clone",
       img: youTubeClone,
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
+      desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
       id:2,
     },
     {
@@ -44,7 +44,7 @@ const Projects = () => {
       hostedLink:"https://sakshuu.github.io/whather_app/",
       GithubLink:"https://github.com/sakshuu/whather_app",
       img: weather_app,
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
+      desc:"My Weather App Project is a user-friendly app built  in javascript  and Bootstrap. Users can search and view details Weather of any city. The app's real-time updates and  smooth performance, making it ideal for online Weather App booking",
       id:4,
     },
     {
@@ -52,7 +52,7 @@ const Projects = () => {
       hostedLink:"https://sakshuu.github.io/tic-tac-toe/",
       GithubLink:"https://github.com/sakshuu/tic-tac-toe",
       img: Tic_tac_too,
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus quae illum omnis ad accusantium perspiciatis impedit quaerat expedita sed quas neque in nisi autem officiis vel, saepe culpa voluptatum quos rerum aspernatur corrupti excepturi. Ipsa et deleniti quos harum.",
+      desc:"My Tic-tac-too project is a user-friendly app built  in javascript and Bootstrap with animation of GSAP animation. Users can view the score details of win. The app's real-time updates and smooth performance, making it ideal for Tic-tac-too game application",
       id:5,
     },
     {
