@@ -41,10 +41,10 @@ const About = () => {
   data-aos="fade-left"
      data-aos-duration="700"
      >
-      <Box sx={{display:{ md:"flex", sm:"inline"},  gap:"2px", marginBottom:"10px", marginTop:"29px"}}>
+      <Box sx={{display:{ md:"flex", sm:"inline"},  gap:"8px", marginBottom:"10px", marginTop:"29px"}}>
       <Typography variant='h5' > My Name Is </Typography>
       <Typography variant='h5' className='colorText'> Sakshi Jadhav, </Typography>
-      <Typography variant='h5'> a Frontend Developer</Typography>
+      <Typography variant='h5'> a Frontend Developer </Typography>
       </Box>
       <Typography variant='body1' className='info'>Specializing in ReactJS. With expertise in HTML, CSS, JavaScript, ReactJS, and Redux, I have successfully contributed to various projects, including an e-commerce platform. During this experience, I skillfully managed state using Redux, implemented robust authentication systems, integrated APIs using Axios, and leveraged UI libraries such as Material UI and Bootstrap to enhance the overall design and user experience.
 </Typography>
