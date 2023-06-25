@@ -67,9 +67,9 @@ const Projects = () => {
   <Typography variant="h3" className="heading" component="h3">
           My Projects
         </Typography>
-        <Button size="large" variant="contained" color="secondary">
+        {/* <Button size="large" variant="contained" color="secondary">
             
-          </Button>
+          </Button> */}
  <Container maxWidth="xl">
 
  <Grid container  spacing={2} columns={12} sx={{marginTop:"20px"}}>
