@@ -38,8 +38,8 @@ const Skills = () => {
     },
     { 
       id:7,
-      icons:bootstrap,  
-      name:"BOOTSTRAP-5"
+      icons:sass,  
+      name:"SASS"
     },
     { 
       id:8,
@@ -53,8 +53,8 @@ const Skills = () => {
     },
     { 
       id:10,
-      icons:sass,  
-      name:"SASS"
+      icons:bootstrap,  
+      name:"BOOTSTRAP-5"
     },
     { 
       id:11,
