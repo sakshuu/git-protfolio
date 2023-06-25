@@ -1,11 +1,9 @@
 .about-content{
-    margin-top: 8px !important;
+    margin-top: 0px !important;
 }
 .back-img{
-    margin: 25px;
-    margin-left: 15px;
-    max-width: 45vw !important;
-    max-height: 50vh !important;
+    max-width: 100% !important;
+    margin-bottom: 10px !important;
     background-size: cover;
     border-radius: 50px;
     border: 4px solid #808080;

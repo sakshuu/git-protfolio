@@ -41,7 +41,7 @@ const About = () => {
   data-aos="fade-left"
      data-aos-duration="700"
      >
-      <Box sx={{display:{ md:"flex", sm:"inline"},  gap:"8px", marginBottom:"10px", marginTop:"29px"}}>
+      <Box sx={{display:{ md:"flex", sm:"inline"},  gap:"6px", marginBottom:"8px", marginTop:"29px"}}>
       <Typography variant='h5' > My Name Is </Typography>
       <Typography variant='h5' className='colorText'> Sakshi Jadhav, </Typography>
       <Typography variant='h5'> a Frontend Developer </Typography>

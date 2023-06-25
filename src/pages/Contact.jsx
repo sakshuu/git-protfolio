@@ -33,6 +33,7 @@ const Contact = () => {
 <Grid item  sm={12} md={8}>
 <ContactMe/>
   </Grid>
+  
 <Grid item  sm={12} md={4} sx={{marginTop:"75px" ,marginBottom:"100px"}} >
 {
   contactList && contactList.map(item => (
