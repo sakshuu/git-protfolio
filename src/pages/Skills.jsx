@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Container, Grid, Typography } from '@mui/material'
 import "./../assets/css/skills.css"
-import { bootstrap, css, express_js, github_icon, html, html5, javascript, material_ui, mongodb, nodejs, react, redux, sass, tailwind_css, typescript } from '../assets/images/skills';
+import { bootstrap, css, express_js, github_icon, html, html5, javascript, material_ui, mongodb, nodejs, react, redux, rest_api, sass, tailwind_css, typescript } from '../assets/images/skills';
 
 const Skills = () => {
 
@@ -29,12 +29,17 @@ const Skills = () => {
     { 
       id:5,
       icons:react, 
-      name:"REACT.JS" 
+      name:"REACTJS" 
     },
     { 
       id:6,
       icons:redux, 
       name:"REDUX" 
+    },
+    { 
+      id:6,
+      icons:rest_api, 
+      name:"REST-API" 
     },
     { 
       id:7,
@@ -54,7 +59,7 @@ const Skills = () => {
     { 
       id:10,
       icons:bootstrap,  
-      name:"BOOTSTRAP-5"
+      name:"BOOTSTRAP_5"
     },
     { 
       id:11,
@@ -64,12 +69,12 @@ const Skills = () => {
     { 
       id:12,
       icons:express_js, 
-      name:"EXPRESS-JS" 
+      name:"EXPRESSJS" 
     },
     { 
       id:13,
       icons:nodejs, 
-      name:"NODE-JS" 
+      name:"NODEJS" 
     },
     { 
       id:14,

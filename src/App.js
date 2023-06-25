@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { About, Contact, Home, Page404, Projects, Resume, Skills } from './pages'
-import { MyNavbar } from './components'
+import { MyNavbar} from './components'
 import "./assets/css/index.css"
 import AOS from 'aos';
 import "aos/dist/aos.css";

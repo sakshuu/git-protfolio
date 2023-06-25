@@ -13,3 +13,4 @@ export { default as tailwind_css } from "./tailwind_css.png";
 export { default as typescript } from "./typescript.png";
 export { default as github_icon } from "./github_icon.png";
 export { default as sass } from "./sass.png";
+export { default as rest_api } from "./rest_api.png";

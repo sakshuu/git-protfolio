@@ -5,6 +5,7 @@ import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
 import { Tic_tac_too, bollybook, protfolio, student, weather_app, youTubeClone } from '../assets/images/projects';
+import { UI } from '../components';
 
 
 const Projects = () => {
@@ -66,6 +67,9 @@ const Projects = () => {
   <Typography variant="h3" className="heading" component="h3">
           My Projects
         </Typography>
+        <Button size="large" variant="contained" color="secondary">
+            
+          </Button>
  <Container maxWidth="xl">
 
  <Grid container  spacing={2} columns={12} sx={{marginTop:"20px"}}>
