@@ -1,11 +1,11 @@
 .badges{
   padding: 8px !important;
-  background-color: #DA70D6;
+  background-color: #DA70D6 !important;
   padding-left: 2px !important;
   padding-right: 2px !important;
   border-radius: 20px;
 }
 .white-text{
   margin-top: 16px !important;
- color: whitesmoke;
+ color: whitesmoke !important;
 }

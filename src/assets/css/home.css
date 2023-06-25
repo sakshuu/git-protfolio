@@ -3,35 +3,35 @@
     margin-top: 45px !important;
 }
 .fontsize{
-    font-size: 140%;
+    font-size: 140% !important;
 }
 .spacing {
-    line-height: 45px;
+    line-height: 45px !important;
 }
 .main-btn{
-    margin-top: 34px;
+    margin-top: 34px !important;
 }
 #btn{
-    color: white;
-    border: 2px solid white;
-    font-size: 18px;
-    transition: transform 0.25s ease;
+    color: white !important;
+    border: 2px solid white !important;
+    font-size: 18px !important;
+    transition: transform 0.25s ease !important;
 }
 #btn:hover{
-    color: #BEBEBE;
-    border: 2px solid #BEBEBE;
-    transform: scale(1.1);
+    color: #BEBEBE !important;
+    border: 2px solid #BEBEBE !important;
+    transform: scale(1.1) !important;
 }
 .icon{
     margin-top: 10px !important;
-    display: inline;
-    gap: 10px;
-    margin-right: 20px;
-    height: 45px;
-    width: 45px;
+    display: inline !important;
+    gap: 10px !important;
+    margin-right: 20px !important; 
+    height: 45px !important;
+    width: 45px !important;
 }
 .typeani{
-    color: #DA70D6;
+    color: #DA70D6 !important;
 }
 .fllowMe{
     margin-top: 20px !important;

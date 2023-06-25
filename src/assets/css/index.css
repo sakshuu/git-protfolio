@@ -1,7 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
     font-family: 'Libre Baskerville', serif !important;
 }
 .gradient{
@@ -32,11 +32,11 @@
 }
 /* 404 */
 .bolded {
-    font-weight: bold;
-    color: red;
+    font-weight: bold !important;
+    color: red !important;
 }
 .pageNotFond {
-    color: black;
+    color: white !important;
 }
 .heading{
     text-align: center !important;
@@ -44,5 +44,5 @@
     color: #DA70D6;
 }
 .colorText{
-    color: #DA70D6;
+    color: #DA70D6 !important;
 }
