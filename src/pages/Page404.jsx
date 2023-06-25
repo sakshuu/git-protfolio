@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom';
 import { Button, Typography, Container, Box, styled } from '@mui/material';
-import pageNF from "./../assets/images/pageNF.png";
+import { pageNF } from '../assets/images';
 
 
 const StyledContent = styled('div')(({ }) => ({

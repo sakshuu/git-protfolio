@@ -2,10 +2,9 @@ import React from 'react'
 import { Box, Button, Container, Grid, Typography } from '@mui/material'
 import { TypeAnimation } from "react-type-animation";
 import { Link, useNavigate } from 'react-router-dom';
-import  github_icon from "./../assets/images/skills/github_icon.png";
-import  gmail_icon from "./../assets/images/gmail_icon.png";
-import  linkedin_icon from "./../assets/images/linkedin_icon.png";
 import "./../assets/css/home.css"
+import { gmail_icon, linkedin_icon } from '../assets/images';
+import { github_icon } from '../assets/images/skills';
 
 const Home = () => {
   const navigate=  useNavigate()

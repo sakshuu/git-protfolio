@@ -1,20 +1,7 @@
 import React from 'react'
 import { Box, Container, Grid, Typography } from '@mui/material'
-import html from "./../assets/images/skills/html.png";
-import html5 from "./../assets/images/skills/html5.png";
-import css from "./../assets/images/skills/css.png";
-import javascript from "./../assets/images/skills/javascript.png";
-import react from "./../assets/images/skills/react.png";
-import redux from "./../assets/images/skills/redux.png";
-import bootstrap from "./../assets/images/skills/bootstrap.png";
-import material_ui from "./../assets/images/skills/material_ui.png";
-import tailwind_css from "./../assets/images/skills/tailwind_css.png";
-import github_icon from "./../assets/images/skills/github_icon.png";
-import express_js from "./../assets/images/skills/express_js.png";
-import mongodb from "./../assets/images/skills/mongodb.png";
-import nodejs from "./../assets/images/skills/nodejs.png";
-import typescript from "./../assets/images/skills/typescript.png";
 import "./../assets/css/skills.css"
+import { bootstrap, css, express_js, github_icon, html, html5, javascript, material_ui, mongodb, nodejs, react, redux, tailwind_css, typescript } from '../assets/images/skills';
 
 const Skills = () => {
 

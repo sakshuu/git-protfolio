@@ -1,10 +1,8 @@
 import React from 'react'
 import { ContactMe } from '../components'
-import { Box, Card, CardActionArea, CardContent, Container, Grid, Typography } from '@mui/material'
+import { Box, Card, Container, Grid, Typography } from '@mui/material'
 import "./../assets/css/contact.css"
-import phone from "./../assets/images/phone.jpg";
-import address from "./../assets/images/address.jpg";
-import gmail_icon from "./../assets/images/gmail_icon.png";
+import { address, gmail_icon, phone } from '../assets/images'
 
 const Contact = () => {
 

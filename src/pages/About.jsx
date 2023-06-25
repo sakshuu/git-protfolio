@@ -3,8 +3,8 @@ import { Box, Button, Container, Grid, Typography } from '@mui/material'
 import { saveAs } from 'file-saver';
 import DownloadIcon from '@mui/icons-material/Download';
 import frontend from "./../assets/resume/frontend.pdf"
-import profile from "./../assets/images/profile.jpg"
 import "./../assets/css/about.css"
+import { profile } from '../assets/images';
 
 const About = () => {
   

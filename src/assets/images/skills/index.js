@@ -1,0 +1,14 @@
+export { default as bootstrap } from "./bootstrap.png";
+export { default as css } from "./css.png";
+export { default as express_js } from "./express_js.png";
+export { default as html } from "./html.png";
+export { default as html5 } from "./html5.png";
+export { default as javascript } from "./javascript.png";
+export { default as material_ui } from "./material_ui.png";
+export { default as mongodb } from "./mongodb.png";
+export { default as nodejs } from "./nodejs.png";
+export { default as react } from "./react.png";
+export { default as redux } from "./redux.png";
+export { default as tailwind_css } from "./tailwind_css.png";
+export { default as typescript } from "./typescript.png";
+export { default as github_icon } from "./github_icon.png";

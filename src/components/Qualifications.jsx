@@ -1,4 +1,4 @@
-import { Badge, Box, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
+import {  Box, Card,  CardContent,  Typography } from '@mui/material';
 import React from 'react'
 import "./../assets/css/resume.css"
 
