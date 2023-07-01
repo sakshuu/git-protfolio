@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, Container, Grid, Typography } from '@mui/material'
 import { saveAs } from 'file-saver';
 import DownloadIcon from '@mui/icons-material/Download';
-import frontend from "./../assets/resume/frontend.pdf"
+import resume from "./../assets/resume/resume.pdf"
 import "./../assets/css/about.css"
 import { profile } from '../assets/images';
 
@@ -10,7 +10,7 @@ const About = () => {
   
 
   const handleDownload = () => {
-    const fileUrl = frontend; 
+    const fileUrl = resume; 
     const fileName = 'resume.pdf'; 
     saveAs(fileUrl, fileName);
   };

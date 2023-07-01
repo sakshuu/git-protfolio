@@ -6,7 +6,7 @@ const Experience = () => {
 
   const experiences = [
     {
-      year:"October 2022 - March 2023",  
+      year:"January 2023 - june 2023",  
       compunyName:"Skillhub It Solutions",  
       role:"Worked as React Js intern",  
       desc:"During my internship, I worked on an e-commerce project, managing state with Redux, implementing authentication, integrating APIs with Axios, and utilizing UI libraries like Material UI and Bootstrap for improved design and user experience. Skills - ReactJS, Redux, NodeJS, MongoDB, Material-UI, JS, CSS.",
