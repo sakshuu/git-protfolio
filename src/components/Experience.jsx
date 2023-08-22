@@ -6,24 +6,28 @@ const Experience = () => {
 
   const experiences = [
     {
-      year:"January 2023 - june 2023",  
-      compunyName:"Skillhub It Solutions",  
-      role:"Worked as React Js intern",  
-      desc:"During my internship, I worked on an e-commerce project, managing state with Redux, implementing authentication, integrating APIs with Axios, and utilizing UI libraries like Material UI and Bootstrap for improved design and user experience. Skills - ReactJS, Redux, NodeJS, MongoDB, Material-UI, JS, CSS.",
+      year:"aug 2023 - present",  
+      compunyName:"Numetry Technologies",  
+      role:"Worked as frontend Developer (Traineeship)",  
+      desc:"",
       id:"1"
+    },
+    {
+      year:"January 2023 - july 2023",  
+      compunyName:"Skillhub It Solutions",  
+      role:"Worked as React Js & UI intern",  
+      desc:"During my internship, I worked on an e-commerce project, managing state with Redux, implementing authentication, integrating APIs with Axios, and utilizing UI libraries like Material UI and Bootstrap for improved design and user experience. Skills - ReactJS, Redux, NodeJS, MongoDB, Material-UI, JS, CSS.",
+      id:"2"
     }
    ];
-  
-
   return <>
   {
     experiences.map(item=> (
 <Card 
 data-aos="fade-down"
 data-aos-duration="3000"
-sx={{backgroundColor:"#080808", color:"white", padding:'22px', minHeight: "250px"}} >
-  <Box        data-aos="flip-up"
-       data-aos-duration="2000" >
+sx={{backgroundColor:"#080808", color:"white", padding:'22px', minHeight: "250px", marginTop:"15px"}} >
+  <Box>
           <span className="badges">{item?.year}</span>
   </Box>
       <CardContent>

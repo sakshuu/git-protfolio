@@ -1,3 +1,14 @@
+#btn{
+    color: white !important;
+    border: 2px solid white !important;
+    font-size: 18px !important;
+    transition: transform 0.25s ease !important;
+}
+#btn:hover{
+    color: #BEBEBE !important;
+    border: 2px solid #BEBEBE !important;
+    transform: scale(1.1) !important;
+}
 .content{
     position: relative !important;
     margin-top: 45px !important;
@@ -10,17 +21,6 @@
 }
 .main-btn{
     margin-top: 34px !important;
-}
-#btn{
-    color: white !important;
-    border: 2px solid white !important;
-    font-size: 18px !important;
-    transition: transform 0.25s ease !important;
-}
-#btn:hover{
-    color: #BEBEBE !important;
-    border: 2px solid #BEBEBE !important;
-    transform: scale(1.1) !important;
 }
 .icon{
     margin-top: 10px !important;
