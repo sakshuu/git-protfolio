@@ -94,7 +94,7 @@ const Skills = () => {
   <Typography variant="h3" className='heading' component="h3" >Skills</Typography>
   <Box className="skill">
 
-  <Container maxWidth="xl">
+  <Container >
     <Grid container spacing={2}>
       {
         techSkills &&  techSkills.map((item) => <>
