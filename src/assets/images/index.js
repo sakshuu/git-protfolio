@@ -5,3 +5,4 @@ export { default as pageNF } from "./pageNF.png";
 export { default as phone } from "./phone.jpg";
 export { default as profile } from "./profile.jpg";
 export { default as skype } from "./skype.png";
+export { default as skype_b_w } from "./skype_b_w.png";

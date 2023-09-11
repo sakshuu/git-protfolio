@@ -22,7 +22,8 @@ import MarkunreadIcon from '@mui/icons-material/Markunread';
 import "./../assets/css/navbar.css"
 import { Link} from 'react-router-dom'
 import { Tooltip } from '@mui/material';
-import { skype  } from "./../assets/images/skype.png";
+import { skype_b_w } from '../assets/images';
+// import { skype_b_w  } from "./../assets/images/skype_b_w.png";
 
 const MyNavbar = () => {
 
@@ -85,21 +86,25 @@ const MyNavbar = () => {
 
 const settings = [
  {
+  type: 'icon',
    icon:<LinkedInIcon/>,  //linkdin
    link:"https://www.linkedin.com/in/sakshi-jadhav-8b6429226/"
  },
  {
+  type: 'icon',
    icon:<GitHubIcon/>,  //github
    link:"https://github.com/sakshuu"
  },
  {
+  type: 'icon',
    icon:<MarkunreadIcon/>,  //gmail
    link:"https://mail.google.com/mail/?view=cm&to=sakshisjadhav.120@gmail.com"
  },
-//  {
-//    icon:<skype/>,  //gmail
-//    link:"https://join.skype.com/invite/w3faKSeeqfxM"
-//  }
+  {
+    type: 'image',
+    icon:skype_b_w,  //gmail
+    link:"https://join.skype.com/invite/w3faKSeeqfxM"
+  }
 ];
 
   return <>
@@ -221,13 +226,23 @@ const settings = [
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}>
 
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <IconButton     className="menu" href={setting.link} target="_blank">
+
+
+{settings.map((setting, index) => (
+  <MenuItem key={index} onClick={handleCloseUserMenu}>
+    {setting.type === 'icon' ? (
+      <IconButton className="menu" href={setting.link} target="_blank">
         {setting.icon}
       </IconButton>
-                </MenuItem>
-              ))}
+    ) : (
+      <a href={setting.link} target="_blank" rel="noopener noreferrer">
+        <img width={42} src={setting.icon} alt="" />
+      </a>
+    )}
+  </MenuItem>
+))}
+
+
             </Menu>
           </Box>
         </Toolbar>
