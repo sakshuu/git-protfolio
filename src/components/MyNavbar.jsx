@@ -22,6 +22,7 @@ import MarkunreadIcon from '@mui/icons-material/Markunread';
 import "./../assets/css/navbar.css"
 import { Link} from 'react-router-dom'
 import { Tooltip } from '@mui/material';
+import { skype  } from "./../assets/images/skype.png";
 
 const MyNavbar = () => {
 
@@ -94,7 +95,11 @@ const settings = [
  {
    icon:<MarkunreadIcon/>,  //gmail
    link:"https://mail.google.com/mail/?view=cm&to=sakshisjadhav.120@gmail.com"
- }
+ },
+//  {
+//    icon:<skype/>,  //gmail
+//    link:"https://join.skype.com/invite/w3faKSeeqfxM"
+//  }
 ];
 
   return <>

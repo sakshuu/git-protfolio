@@ -3,7 +3,7 @@ import { Box, Button, Container, Grid, Typography } from '@mui/material'
 import { TypeAnimation } from "react-type-animation";
 import { Link, useNavigate } from 'react-router-dom';
 import "./../assets/css/home.css"
-import { gmail_icon, linkedin_icon } from '../assets/images';
+import { gmail_icon, linkedin_icon, skype } from '../assets/images';
 import { github_icon } from '../assets/images/skills';
 
 const Home = () => {
@@ -45,19 +45,24 @@ websites. Efficient problem solver with skills in teamwork and delivering
 projects on time</Typography>
 
 <Box  data-aos="zoom-in" data-aos-duration="3000">
-<Typography variant='h5' className='fllowMe typeani' component="h5">Follow Me</Typography>
+<Typography variant='h5' className='fllowMe typeani' component="h5">Follow or DM me</Typography>
 
-  <Link to="https://github.com/sakshuu">
-  <img className='icon' src={github_icon} alt="github" />
-  </Link>
+
 
   <Link to="https://www.linkedin.com/in/sakshi-jadhav-8b6429226">
   <img className='icon' src={linkedin_icon} alt="linkedin" />
   </Link>
+<Link to="https://join.skype.com/invite/w3faKSeeqfxM">
+  <img className='icon' src={skype} alt="skype" />
+</Link>
 
 <Link onClick={handleEmail}>
   <img className='icon' src={gmail_icon} alt="gmail" />
 </Link>
+
+<Link to="https://github.com/sakshuu">
+  <img className='icon' src={github_icon} alt="github" />
+  </Link>
 </Box>
 
 <Box className="main-btn">
