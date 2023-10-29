@@ -99,12 +99,12 @@ const Projects = () => {
 
         <Link to={item?.hostedLink}>
 <Button variant="contained"
-        color="secondary" startIcon={<VisibilityOutlinedIcon/>}>Hosted</Button>
+        color="secondary" className='main-btn' startIcon={<VisibilityOutlinedIcon/>}>Hosted</Button>
         </Link>
 
         <Link to={item?.GithubLink}>
 <Button variant="contained"
-        color="secondary" startIcon={<CodeOutlinedIcon/>}>Github</Button>
+        color="secondary" className='main-btn' startIcon={<CodeOutlinedIcon/>}>Github</Button>
         </Link>
       </CardActions>
     </Card>

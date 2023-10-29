@@ -2,7 +2,7 @@
     margin-top: 0px !important;
 }
 .back-img{
-    max-width: 90% !important;
+    max-width: 80% !important;
     margin-bottom: 10px !important;
     background-size: cover !important;
     border-radius: 50px !important;
@@ -27,5 +27,17 @@
 }
 .linehr{
     border-color: #808080 !important;
+}
 
+@media (max-width:650px) {
+    .info{
+        color: #989898 !important;
+        font-size: 12px !important;
+    }
+    .back-img{
+        max-width: 50% !important;
+    }
+    .main-resume{
+        font-size: 10px !important;
+    }
 }

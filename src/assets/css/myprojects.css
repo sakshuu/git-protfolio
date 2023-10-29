@@ -5,5 +5,11 @@
 }
 .projectSS{
     max-width: 100% !important;
+}
 
+@media (max-width:650px) {
+    .main-btn{
+        margin-top: 0px !important;
+        font-size: 12px !important;
+    }
 }

@@ -32,7 +32,7 @@ const About = () => {
      data-aos-anchor-placement="center-bottom"
      data-aos-duration="3000"
      > 
-  <Button variant="contained" color="secondary"
+  <Button variant="contained" className='main-resume' color="secondary"
    onClick={handleDownload} 
     startIcon={<DownloadIcon/>}>download resume</Button>
       </Box> 

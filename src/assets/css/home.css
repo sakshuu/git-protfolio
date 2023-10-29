@@ -4,6 +4,7 @@
     font-size: 18px !important;
     transition: transform 0.25s ease !important;
 }
+
 #btn:hover{
     color: #BEBEBE !important;
     border: 2px solid #BEBEBE !important;
@@ -27,8 +28,16 @@
     display: inline !important;
     gap: 10px !important;
     margin-right: 20px !important; 
-    height: 45px !important;
-    width: 45px !important;
+    width: 4% !important;
+}
+@media (max-width:650px) {
+    #btn{
+        font-size: 12px !important;
+    }
+    .icon{
+        width: 10% !important;
+        margin-bottom: 10px !important;
+    }
 }
 .typeani{
     color: #DA70D6 !important;
