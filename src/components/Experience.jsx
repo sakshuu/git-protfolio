@@ -7,11 +7,18 @@ const Experience = () => {
   const experiences = [
 
     {
-      year:"January 2023 - present",  
+      year:"January 2023 - october 2023",  
       compunyName:"Skillhub It Solutions",  
       role:"Worked as React Js & UI intern",  
       desc:"During my internship, I worked on an e-commerce project, managing state with Redux, implementing authentication, integrating APIs with Axios, and utilizing UI libraries like Material UI and Bootstrap for improved design and user experience. Skills - ReactJS, Redux, NodeJS, MongoDB, Material-UI, JS, CSS.",
       id:"1"
+    },
+    {
+      year:"February 2024 - present",  
+      compunyName:"gofloww",  
+      role:"Worked as Frontend Developer",  
+      desc:"launched and maintained a console website for HR, Mail, and Accounting modules, increasing efficiency by 75% and reducing errors. Contributed to 80% revenue growth in three months by planning and launching four key features. Built responsive UIs based on Figma designs using Vue.js, ensuring seamless functionality across desktop and mobile. Implemented task assignment and attendance tracking features with real-time analytics. Delivered additional projects, such as the Raru Group website, converting Figma designs into responsive, functional web applications",
+      id:"2"
     }
    ];
   return <>
