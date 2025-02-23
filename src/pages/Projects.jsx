@@ -5,7 +5,6 @@ import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
 import { Tic_tac_too, bollybook, protfolio, red_bus, student, weather_app, youTubeClone } from '../assets/images/projects';
-import { UI } from '../components';
 
 
 const Projects = () => {
@@ -26,6 +25,14 @@ const Projects = () => {
       img: youTubeClone,
       desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
       id:2,
+    },
+    {
+      title:"Student Management",  
+      hostedLink:"https://github.com/sakshuu/student_data",
+      GithubLink:"https://github.com/sakshuu/student_data",
+      img: student,
+      desc:"A student management system is a CRUD app using Redux in the frontend. Features include adding new students, viewing all students, editing/deleting student records, and searching by name/ID. It's a powerful tool for teachers and admins to manage student info efficiently.",
+      id:6,
     },
     {
       title:"BollyBook",  
@@ -59,70 +66,70 @@ const Projects = () => {
       desc:"My Tic-tac-too project is a user-friendly app built  in javascript and Bootstrap with animation of GSAP animation. Users can view the score details of win. The app's real-time updates and smooth performance, making it ideal for Tic-tac-too game application",
       id:5,
     },
-    {
-      title:"Student Management",  
-      hostedLink:"https://github.com/sakshuu/student_data",
-      GithubLink:"https://github.com/sakshuu/student_data",
-      img: student,
-      desc:"A student management system is a CRUD app using Redux in the frontend. Features include adding new students, viewing all students, editing/deleting student records, and searching by name/ID. It's a powerful tool for teachers and admins to manage student info efficiently.",
-      id:6,
-    }
+    
 ];
 
   return <>
 
-  <Box className="gradient">
-  <Typography variant="h3" className="heading" component="h3">
-          My Projects
-        </Typography>
-        {/* <Button size="large" variant="contained" color="secondary">
-            
-          </Button> */}
- <Container maxWidth="xl">
+<Box className="gradient">
+      <Typography variant="h3" className="heading" component="h3">
+        My Projects
+      </Typography>
 
- <Grid container  spacing={2} columns={12} sx={{marginTop:"20px"}}>
-  {
-    projects.map(item => (
-<Grid item sx={12} sm={12} md={6} >
-  <Card 
-   data-aos="zoom-in-up"
-   data-aos-duration="800"
-  sx={{backgroundColor:"#080808", color:"white", padding:'18px',  maxWidth:"85vw" }}> 
-  <Box 
-   data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="1500" 
-     className="projectImg">
-      <img src={item?.img} className="projectSS" alt="ss" />
-        </Box>
-      <CardContent>
-        <Typography className="colorText" gutterBottom variant="h5" component="div">
-          {item?.title}
-        </Typography>
-        <Typography variant="body2" >
-{item?.desc}
-        </Typography>
-      </CardContent>
-      <CardActions>
-
-        <Link to={item?.hostedLink}>
-<Button variant="contained"
-        color="secondary" className='main-btn' startIcon={<VisibilityOutlinedIcon/>}>Hosted</Button>
-        </Link>
-
-        <Link to={item?.GithubLink}>
-<Button variant="contained"
-        color="secondary" className='main-btn' startIcon={<CodeOutlinedIcon/>}>Github</Button>
-        </Link>
-      </CardActions>
-    </Card>
-</Grid>
-    ))
-  }
-
-</Grid>
-        </Container> 
-  </Box>
+      <Container maxWidth="xl">
+        <Grid container spacing={2} columns={12} sx={{ marginTop: "20px" }}>
+          {projects.map(item => (
+            <Grid item xs={12} sm={6} md={6} key={item.id}>
+              <Card
+                data-aos="zoom-in-up"
+                data-aos-duration="800"
+                sx={{
+                  backgroundColor: "#080808",
+                  color: "white",
+                  padding: '18px',
+                  height: '100%', // Ensure the card takes full height of the grid item
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                }}
+              >
+                <Box
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  className="projectImg"
+                  sx={{
+                    height: '200px', // Fixed height for the image container
+                    overflow: 'hidden',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <img src={item?.img} className="projectSS" alt="ss"/>
+                </Box>
+                <CardContent sx={{ flexGrow: 1 }}>
+                  <Typography className="colorText" gutterBottom variant="h5" component="div">
+                    {item?.title}
+                  </Typography>
+                  <Typography variant="body2" sx={{ overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical' }}>
+                    {item?.desc}
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Link to={item?.hostedLink}>
+                    <Button variant="contained" color="secondary" className='main-btn' startIcon={<VisibilityOutlinedIcon />}>Hosted</Button>
+                  </Link>
+                  <Link to={item?.GithubLink}>
+                    <Button variant="contained" color="secondary" className='main-btn' startIcon={<CodeOutlinedIcon />}>Github</Button>
+                  </Link>
+                </CardActions>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </Container>
+    </Box>
   </>
 }
 
