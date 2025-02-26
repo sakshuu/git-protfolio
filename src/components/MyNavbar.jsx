@@ -108,7 +108,7 @@ const settings = [
 ];
 
   return <>
-<AppBar position='static' className='appbar' sx={{padding:{xs:'16px', sm:"10px"}}}>
+<AppBar position='static' className='appbar'>
       <Container  >
         <Toolbar disableGutters>
           <Person2Icon sx={{ display: { xs: 'none', md: 'flex' }, mr: 2 }} />
