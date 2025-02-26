@@ -27,22 +27,36 @@ const Home = () => {
   <Typography component="h3" variant='h3' sx={{ fontWeight: 'bold', marginBottom:"20px" }}>
     <TypeAnimation id="heading" className='typeani'
       sequence={[
-        "I'm Sakshi Jadhav", 
-        2000, 
-        "I'm React Devloper", 
-        2000, 
+        2000,
+        "I'm Sakshi Jadhav",  
+        1000, 
         "I'm Frontend Devloper",
-        2000, 
+        1000, 
+        "I'm Web Devloper",
+        1000, 
+        "I'm React Devloper", 
+        1000, 
+        "I'm UI Developer",
+        1000, 
+        "I'm Backend Developer", 
+        1000, 
+        "I'm MERN Stack Developer",
+        1000, 
+        "I'm Full Stack Developer",
+        1000, 
+        "I'm Software Developer ",
+        1000, 
       ]}
       wrapper="div"
       cursor={true}
       repeat={Infinity}/>
       </Typography>
+ 
 
-<Typography variant='span' className='fontsize' data-aos="zoom-in" data-aos-duration="2000">A creative UI Developer with passion for the latest solutions and
-interactive design. Talented at planning and creating animations for
-websites. Efficient problem solver with skills in teamwork and delivering 
-projects on time</Typography>
+<Typography variant='span' className='fontsize' data-aos="zoom-in" data-aos-duration="2000"> Frontend Developer with 1.9 years of experience in building user-friendly, responsive web applications using React.js, Vue.js 
+and MERN Stack. Proven expertise in delivering high-performance, device-optimized solutions that enhance user engagement 
+and operational efficiency. Skilled in Full-Stack development, including Node.js, Express.js, and MongoDB, to create scalable 
+and efficient web applications. Seeking to contribute to innovative projects in a dynamic team environment.</Typography>
 
 <Box  data-aos="zoom-in" data-aos-duration="3000">
 <Typography variant='h5' className='fllowMe typeani' component="h5">Follow or DM me</Typography>
