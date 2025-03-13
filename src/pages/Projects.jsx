@@ -112,7 +112,7 @@ const Projects = () => {
                   <Typography className="colorText" gutterBottom variant="h5" component="div">
                     {item?.title}
                   </Typography>
-                  <Typography variant="body2" sx={{ overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical' }}>
+                  <Typography variant="body2" >
                     {item?.desc}
                   </Typography>
                 </CardContent>
