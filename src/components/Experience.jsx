@@ -8,7 +8,6 @@ const Experience = () => {
       year:"Jan 2025 - Present",  
       compunyName:"Freelancing",  
       role:"Worked as Full Stack Developer",  
-      // desc:"Developed and maintained a console website for accounting, mail, and HR modules, increasing productivity by 75% and reducing errors by 20%. Designed responsive user interfaces using Vue.js, converting Figma designs into high performance web applications optimized for desktop and mobile devices. Implemented real-time analytics for task assignment and attendance monitoring, improving operational efficiency by 30%. Collaborated with cross-functional teams to deliver user centric web applications on time, ensuring high-quality results. Contributed to the development of the Raru Group website, enhancing user experience and engagement",
       id:"1"
     },
     {
