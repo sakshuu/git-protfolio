@@ -3,7 +3,7 @@ import React from 'react'
 import "./../assets/css/resume.css"
 
 const Experience = () => {
-  const experiences = [
+const experiences = [
     {
       year:"Jan 2025 - Present",  
       compunyName:"Freelancing",  
