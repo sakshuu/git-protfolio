@@ -12,7 +12,6 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "aos": "^2.3.4",
-    "axios": "^1.4.0",
     "file-saver": "^2.0.5",
     "formik": "^2.4.2",
     "pakage.json": "^1.0.0",

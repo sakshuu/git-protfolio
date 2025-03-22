@@ -34,7 +34,7 @@ const Contact = () => {
 <Container  maxWidth="xl" className='contact-main'>
   <Grid container rowSpacing={1} columnSpacing={{  sm: 1, md: 2}}>
 <Grid item  sm={12} md={8}>
-<ContactMe/>
+<ContactMe />
   </Grid>
   
 <Grid item  sm={12} md={4} sx={{marginBottom:"100px"}} >
