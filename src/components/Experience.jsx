@@ -3,7 +3,7 @@ import React from 'react'
 import "./../assets/css/resume.css"
 
 const Experience = () => {
-const experiences = [
+  const experiences = [
     {
       year:"Jan 2025 - Present",  
       compunyName:"Freelancing",  
@@ -32,9 +32,7 @@ const experiences = [
       role:"Worked as MERN Stack Developer",  
       desc:"Built an e-commerce platform using MERN stack, integrating Razorpay for secure payments and Gmail for user verification, resulting in a 30% increase in conversion rates. Designed scalable database solutions using Node.js and MongoDB, reducing API response times by 30% during peak traffic. Implemented JWT for secure user authentication",
       id:"4"
-    },
-
-    
+    },    
    ];
 
   return <>
