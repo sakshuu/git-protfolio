@@ -3,11 +3,13 @@ import React from 'react'
 import "./../assets/css/resume.css"
 
 const Experience = () => {
+
   const experiences = [
     {
       year:"Jan 2025 - Present",  
       compunyName:"Freelancing",  
       role:"Worked as Full Stack Developer",  
+      // desc:"Developed and maintained a console website for accounting, mail, and HR modules, increasing productivity by 75% and reducing errors by 20%. Designed responsive user interfaces using Vue.js, converting Figma designs into high performance web applications optimized for desktop and mobile devices. Implemented real-time analytics for task assignment and attendance monitoring, improving operational efficiency by 30%. Collaborated with cross-functional teams to deliver user centric web applications on time, ensuring high-quality results. Contributed to the development of the Raru Group website, enhancing user experience and engagement",
       id:"1"
     },
     {
@@ -31,9 +33,10 @@ const Experience = () => {
       role:"Worked as MERN Stack Developer",  
       desc:"Built an e-commerce platform using MERN stack, integrating Razorpay for secure payments and Gmail for user verification, resulting in a 30% increase in conversion rates. Designed scalable database solutions using Node.js and MongoDB, reducing API response times by 30% during peak traffic. Implemented JWT for secure user authentication",
       id:"4"
-    },    
-   ];
+    },
 
+    
+   ];
   return <>
 
   {
